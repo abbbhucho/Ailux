@@ -1,0 +1,22 @@
+[
+    {
+      "description": "Find all log files modified in last 3 days",
+      "command": "find . -name \"*.log\" -mtime -3"
+    },
+    {
+      "description": "Kill all firefox processes",
+      "command": "pkill firefox"
+    },
+    {
+      "description": "Show disk usage of all folders",
+      "command": "du -sh *"
+    },
+    {
+      "description": "List files in reverse time order",
+      "command": "ls -lt"
+    },
+    {
+      "description": "Show running processes",
+      "command": "ps aux"
+    }
+]

@@ -12,35 +12,65 @@ def log_command(nl_input, command, status):
         log_file.write(f"  → Command: {command}\n")
         log_file.write(f"  → Status: {status}\n\n")
 
-def main():
-    print("!! Welcome to AI Linux Shell Helper !!")
-    print(f" SAFE_MODE is {'ON' if SAFE_MODE else 'OFF'} (set in .env)\n")
-
+def ai_shell():
+    print(" ░▒▓▆▅▃▂▁𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐀𝐈 𝐒𝐡𝐞𝐥𝐥 (𝐓𝐲𝐩𝐞 '𝐞𝐱𝐢𝐭' 𝐭𝐨 𝐪𝐮𝐢𝐭)▁▂▃▅▆▓▒░")
     while True:
-        user_input = input(" You: ")
-        if user_input.lower() in ["exit", "quit"]:
+        user_input = input(" ai-shell$ ")
+        if user_input.strip().lower() in ["exit", "quit"]:
             break
+
         try:
             bash_cmd = get_shell_command(user_input)
-            print(f"Suggested Bash: {bash_cmd}")
+            print(f" Interpreted: {bash_cmd}")
 
-            # Check for dangerous commands
             if is_dangerous(bash_cmd):
-                print(" Warning: This command is flagged as potentially dangerous!")
+                print("  This command is flagged as dangerous!")
 
-            run = input(" Do you want to run this command? (y/n): ")
+            run = input("  Run this? (y/n): ")
             if run.lower() == 'y':
                 if SAFE_MODE and is_dangerous(bash_cmd):
-                    print("The command is blocked by SAFE_MODE. Admin has disabled risky command execution.")
+                    print(" Blocked by SAFE_MODE")
                     log_command(user_input, bash_cmd, "BLOCKED by SAFE_MODE")
                 else:
                     subprocess.run(bash_cmd, shell=True)
                     log_command(user_input, bash_cmd, "EXECUTED")
             else:
                 log_command(user_input, bash_cmd, "SKIPPED")
+
         except Exception as e:
-            print(f"Error: {e}")
+            print(f" Error: {e}")
             log_command(user_input, "N/A", f"ERROR: {e}")
+
+def main():
+    ai_shell()
+    # print("!! Welcome to AI Linux Shell Helper !!")
+    # print(f" SAFE_MODE is {'ON' if SAFE_MODE else 'OFF'} (set in .env)\n")
+
+    # while True:
+    #     user_input = input(" You: ")
+    #     if user_input.lower() in ["exit", "quit"]:
+    #         break
+    #     try:
+    #         bash_cmd = get_shell_command(user_input)
+    #         print(f"Suggested Bash: {bash_cmd}")
+
+    #         # Check for dangerous commands
+    #         if is_dangerous(bash_cmd):
+    #             print(" Warning: This command is flagged as potentially dangerous!")
+
+    #         run = input(" Do you want to run this command? (y/n): ")
+    #         if run.lower() == 'y':
+    #             if SAFE_MODE and is_dangerous(bash_cmd):
+    #                 print("The command is blocked by SAFE_MODE. Admin has disabled risky command execution.")
+    #                 log_command(user_input, bash_cmd, "BLOCKED by SAFE_MODE")
+    #             else:
+    #                 subprocess.run(bash_cmd, shell=True)
+    #                 log_command(user_input, bash_cmd, "EXECUTED")
+    #         else:
+    #             log_command(user_input, bash_cmd, "SKIPPED")
+    #     except Exception as e:
+    #         print(f"Error: {e}")
+    #         log_command(user_input, "N/A", f"ERROR: {e}")
     # print("Welcome to AI Linux Shell Helper ")
     # print("Type your natural language command (or 'exit' to quit):\n")
 

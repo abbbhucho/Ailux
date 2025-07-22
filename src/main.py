@@ -14,8 +14,6 @@ def log_command(nl_input, command, status):
 
 def ai_shell():
     print(
-        """ 
-        print(
         """
          █████  ██ ██      ██    ██ ██   ██ 
         ██   ██ ██ ██      ██    ██  ██ ██  
@@ -23,11 +21,10 @@ def ai_shell():
         ██   ██ ██ ██      ██    ██  ██ ██  
         ██   ██ ██ ███████  ██████  ██   ██ 
                                             
-                                    
 
     """
     )
-    """)
+    print(f" SAFE_MODE is {'ON' if SAFE_MODE else 'OFF'} (set in .env)\n")
     while True:
         user_input = input(" ai-shell$ ")
         if user_input.strip().lower() in ["exit", "quit"]:
@@ -98,7 +95,7 @@ def main():
     #     except Exception as e:
     #         print(f" Could not parse input: {e}")
 
-    # run = input("⚠️ Do you want to run this command? (y/n): ")
+    # run = input(" Do you want to run this command? (y/n): ")
     # if run.lower() == 'y':
     #     SAFE_MODE = True
     #     if not SAFE_MODE:

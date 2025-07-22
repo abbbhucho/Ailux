@@ -13,7 +13,18 @@ def log_command(nl_input, command, status):
         log_file.write(f"  → Status: {status}\n\n")
 
 def main():
-    print("!! Welcome to AI Linux Shell Helper !!")
+    print(
+        """
+         █████  ██ ██      ██    ██ ██   ██ 
+        ██   ██ ██ ██      ██    ██  ██ ██  
+        ███████ ██ ██      ██    ██   ███   
+        ██   ██ ██ ██      ██    ██  ██ ██  
+        ██   ██ ██ ███████  ██████  ██   ██ 
+                                            
+                                    
+
+    """
+    )
     print(f" SAFE_MODE is {'ON' if SAFE_MODE else 'OFF'} (set in .env)\n")
 
     while True:
@@ -54,7 +65,7 @@ def main():
     #     except Exception as e:
     #         print(f" Could not parse input: {e}")
 
-    # run = input("⚠️ Do you want to run this command? (y/n): ")
+    # run = input(" Do you want to run this command? (y/n): ")
     # if run.lower() == 'y':
     #     SAFE_MODE = True
     #     if not SAFE_MODE:

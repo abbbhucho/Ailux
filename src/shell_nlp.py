@@ -3,7 +3,7 @@ import json
 
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
-def load_examples(filepath="examples.json"):
+def load_examples(filepath="examples_100000_with_safe.json"):
     with open(filepath, "r") as f:
         return json.load(f)
 

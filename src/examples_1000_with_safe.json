@@ -1,0 +1,5002 @@
+[
+  {
+    "task": "search recursively for 'password' in /etc",
+    "command": "grep -r 'password' /etc",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /var",
+    "command": "grep -r 'disk' /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /home/user",
+    "command": "find /home/user -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /home/user",
+    "command": "grep -r 'login' /home/user",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /var",
+    "command": "find /var -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /home/user",
+    "command": "grep -r 'error' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /tmp",
+    "command": "find /tmp -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /tmp",
+    "command": "grep -r 'error' /tmp",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /usr/local",
+    "command": "grep -r 'disk' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /tmp",
+    "command": "find /tmp -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /etc",
+    "command": "find /etc -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /etc",
+    "command": "find /etc -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /var",
+    "command": "grep -r 'TODO' /var",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in .",
+    "command": "find . -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in /usr/local",
+    "command": "find /usr/local -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /usr/local",
+    "command": "find /usr/local -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /tmp",
+    "command": "grep -r 'kernel' /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /home/user",
+    "command": "grep -r 'login' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /etc",
+    "command": "find /etc -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /etc",
+    "command": "find /etc -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in .",
+    "command": "grep -r 'TODO' .",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /etc",
+    "command": "find /etc -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /home/user",
+    "command": "grep -r 'disk' /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in .",
+    "command": "grep -r 'error' .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /tmp",
+    "command": "grep -r 'login' /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /usr/local",
+    "command": "grep -r 'TODO' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /usr/local",
+    "command": "find /usr/local -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /home/user",
+    "command": "find /home/user -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /usr/local",
+    "command": "grep -r 'kernel' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in .",
+    "command": "grep -r 'error' .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /home/user",
+    "command": "grep -r 'kernel' /home/user",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /var",
+    "command": "grep -r 'error' /var",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in .",
+    "command": "find . -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /usr/local",
+    "command": "grep -r 'error' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /tmp",
+    "command": "grep -r 'kernel' /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /etc",
+    "command": "grep -r 'TODO' /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /tmp",
+    "command": "find /tmp -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /home/user",
+    "command": "grep -r 'error' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /etc",
+    "command": "grep -r 'TODO' /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /tmp",
+    "command": "grep -r 'disk' /tmp",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /home/user",
+    "command": "grep -r 'login' /home/user",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in .",
+    "command": "grep -r 'password' .",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /tmp",
+    "command": "find /tmp -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /home/user",
+    "command": "grep -r 'login' /home/user",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /tmp",
+    "command": "find /tmp -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /tmp",
+    "command": "find /tmp -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'TODO' in /usr/local",
+    "command": "grep -r 'TODO' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /tmp",
+    "command": "find /tmp -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /etc",
+    "command": "find /etc -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /var",
+    "command": "find /var -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /usr/local",
+    "command": "find /usr/local -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /home/user",
+    "command": "grep -r 'TODO' /home/user",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /tmp",
+    "command": "grep -r 'password' /tmp",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .c extension in /var",
+    "command": "find /var -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .sh extension in /etc",
+    "command": "find /etc -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in .",
+    "command": "grep -r 'login' .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /home/user",
+    "command": "grep -r 'error' /home/user",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /home/user",
+    "command": "find /home/user -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /var",
+    "command": "grep -r 'kernel' /var",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in .",
+    "command": "find . -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in .",
+    "command": "find . -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /usr/local",
+    "command": "find /usr/local -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /tmp",
+    "command": "find /tmp -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in .",
+    "command": "find . -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /tmp",
+    "command": "grep -r 'kernel' /tmp",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /usr/local",
+    "command": "grep -r 'error' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /var",
+    "command": "find /var -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /tmp",
+    "command": "find /tmp -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /tmp",
+    "command": "find /tmp -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /tmp",
+    "command": "grep -r 'password' /tmp",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /var",
+    "command": "find /var -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /var",
+    "command": "grep -r 'disk' /var",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /etc",
+    "command": "grep -r 'kernel' /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'TODO' in /var",
+    "command": "grep -r 'TODO' /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /etc",
+    "command": "grep -r 'password' /etc",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /etc",
+    "command": "grep -r 'kernel' /etc",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /etc",
+    "command": "find /etc -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /usr/local",
+    "command": "find /usr/local -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in /etc",
+    "command": "find /etc -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /home/user",
+    "command": "grep -r 'disk' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /tmp",
+    "command": "find /tmp -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /tmp",
+    "command": "find /tmp -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /home/user",
+    "command": "grep -r 'login' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /home/user",
+    "command": "grep -r 'error' /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /var",
+    "command": "grep -r 'disk' /var",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /etc",
+    "command": "grep -r 'error' /etc",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /home/user",
+    "command": "grep -r 'TODO' /home/user",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'password' in /var",
+    "command": "grep -r 'password' /var",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in .",
+    "command": "find . -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'disk' in .",
+    "command": "grep -r 'disk' .",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /usr/local",
+    "command": "grep -r 'disk' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /tmp",
+    "command": "grep -r 'TODO' /tmp",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /home/user",
+    "command": "find /home/user -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /etc",
+    "command": "find /etc -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /etc",
+    "command": "grep -r 'disk' /etc",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "find files with .conf extension in /usr/local",
+    "command": "find /usr/local -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /var",
+    "command": "find /var -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in /home/user",
+    "command": "find /home/user -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /tmp",
+    "command": "grep -r 'kernel' /tmp",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "find files with .txt extension in /home/user",
+    "command": "find /home/user -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /var",
+    "command": "find /var -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "find files with .sh extension in .",
+    "command": "find . -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /home/user",
+    "command": "grep -r 'disk' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'login' in .",
+    "command": "grep -r 'login' .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /tmp",
+    "command": "grep -r 'disk' /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /etc",
+    "command": "grep -r 'TODO' /etc",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /home/user",
+    "command": "find /home/user -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /usr/local",
+    "command": "grep -r 'password' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /usr/local",
+    "command": "grep -r 'password' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /home/user",
+    "command": "grep -r 'kernel' /home/user",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'password' in /etc",
+    "command": "grep -r 'password' /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /usr/local",
+    "command": "grep -r 'error' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /home/user",
+    "command": "find /home/user -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in .",
+    "command": "find . -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /tmp",
+    "command": "grep -r 'TODO' /tmp",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /var",
+    "command": "find /var -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /tmp",
+    "command": "grep -r 'TODO' /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in .",
+    "command": "grep -r 'password' .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /tmp",
+    "command": "grep -r 'kernel' /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /tmp",
+    "command": "grep -r 'password' /tmp",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /tmp",
+    "command": "find /tmp -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /etc",
+    "command": "grep -r 'login' /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /usr/local",
+    "command": "grep -r 'disk' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /home/user",
+    "command": "find /home/user -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /var",
+    "command": "grep -r 'password' /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /etc",
+    "command": "grep -r 'error' /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /tmp",
+    "command": "grep -r 'login' /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /usr/local",
+    "command": "grep -r 'disk' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .txt extension in /home/user",
+    "command": "find /home/user -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /usr/local",
+    "command": "grep -r 'error' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /tmp",
+    "command": "grep -r 'TODO' /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /usr/local",
+    "command": "grep -r 'kernel' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in .",
+    "command": "grep -r 'TODO' .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in .",
+    "command": "find . -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /home/user",
+    "command": "find /home/user -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /etc",
+    "command": "grep -r 'login' /etc",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /usr/local",
+    "command": "grep -r 'TODO' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /var",
+    "command": "grep -r 'TODO' /var",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /etc",
+    "command": "grep -r 'disk' /etc",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /var",
+    "command": "grep -r 'TODO' /var",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'TODO' in /home/user",
+    "command": "grep -r 'TODO' /home/user",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /var",
+    "command": "find /var -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /etc",
+    "command": "find /etc -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in /usr/local",
+    "command": "grep -r 'login' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in .",
+    "command": "find . -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in /usr/local",
+    "command": "find /usr/local -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /home/user",
+    "command": "find /home/user -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /home/user",
+    "command": "find /home/user -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /etc",
+    "command": "grep -r 'error' /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /tmp",
+    "command": "grep -r 'TODO' /tmp",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /home/user",
+    "command": "find /home/user -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "list files in /tmp",
+    "command": "ls /tmp",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in /home/user",
+    "command": "find /home/user -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .py extension in /usr/local",
+    "command": "find /usr/local -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in .",
+    "command": "grep -r 'error' .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in .",
+    "command": "grep -r 'login' .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in .",
+    "command": "grep -r 'login' .",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /var",
+    "command": "du -sh /var",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in .",
+    "command": "find . -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "find files with .txt extension in /tmp",
+    "command": "find /tmp -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .c extension in /tmp",
+    "command": "find /tmp -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .log extension in /home/user",
+    "command": "find /home/user -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'login' in .",
+    "command": "grep -r 'login' .",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /tmp",
+    "command": "grep -r 'kernel' /tmp",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /etc",
+    "command": "ls /etc",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'kernel' in /var",
+    "command": "grep -r 'kernel' /var",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /usr/local",
+    "command": "ls /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /tmp",
+    "command": "du -sh /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in /home/user",
+    "command": "grep -r 'TODO' /home/user",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .sh extension in /var",
+    "command": "find /var -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in .",
+    "command": "ls .",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "count lines in /tmp",
+    "command": "wc -l /tmp",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "find files with .log extension in /var",
+    "command": "find /var -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'password' in /var",
+    "command": "grep -r 'password' /var",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'TODO' in .",
+    "command": "grep -r 'TODO' .",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'password' in /home/user",
+    "command": "grep -r 'password' /home/user",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in .",
+    "command": "find . -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "count lines in .",
+    "command": "wc -l .",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /usr/local",
+    "command": "grep -r 'disk' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "search recursively for 'error' in /usr/local",
+    "command": "grep -r 'error' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'disk' in /usr/local",
+    "command": "grep -r 'disk' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "list files in /home/user",
+    "command": "ls /home/user",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "count lines in /home/user",
+    "command": "wc -l /home/user",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /tmp",
+    "command": "find /tmp -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "list files in /var",
+    "command": "ls /var",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .sh extension in /var",
+    "command": "find /var -name '*.sh'",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /usr/local",
+    "command": "find /usr/local -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "count lines in /var",
+    "command": "wc -l /var",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .py extension in /tmp",
+    "command": "find /tmp -name '*.py'",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "search recursively for 'error' in /usr/local",
+    "command": "grep -r 'error' /usr/local",
+    "safe": true
+  },
+  {
+    "task": "find files with .log extension in /home/user",
+    "command": "find /home/user -name '*.log'",
+    "safe": true
+  },
+  {
+    "task": "find files with .txt extension in /usr/local",
+    "command": "find /usr/local -name '*.txt'",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /etc",
+    "command": "du -sh /etc",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "find files with .c extension in .",
+    "command": "find . -name '*.c'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "count lines in /etc",
+    "command": "wc -l /etc",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  },
+  {
+    "task": "download file from http://example.com/file.txt",
+    "command": "wget http://example.com/file.txt",
+    "safe": false
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "find files with .conf extension in /home/user",
+    "command": "find /home/user -name '*.conf'",
+    "safe": true
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "download file from https://example.org/data.csv",
+    "command": "wget https://example.org/data.csv",
+    "safe": false
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /home/user",
+    "command": "du -sh /home/user",
+    "safe": true
+  },
+  {
+    "task": "display current directory",
+    "command": "pwd",
+    "safe": true
+  },
+  {
+    "task": "show calendar",
+    "command": "cal",
+    "safe": true
+  },
+  {
+    "task": "count lines in /usr/local",
+    "command": "wc -l /usr/local",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of .",
+    "command": "du -sh .",
+    "safe": true
+  },
+  {
+    "task": "show disk usage of /usr/local",
+    "command": "du -sh /usr/local",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "check open ports",
+    "command": "netstat -tuln",
+    "safe": true
+  },
+  {
+    "task": "monitor real-time system processes",
+    "command": "top",
+    "safe": true
+  }
+]

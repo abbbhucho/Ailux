@@ -10,7 +10,7 @@ echo "⬆ Upgrading pip..."
 pip install --upgrade pip
 
 echo " Installing dependencies..."
-pip install -r src/requirements.txt
+pip install -r requirements.txt
 
 echo "✅ Setup complete!"
 echo " Run app using: source shell_helper_env/bin/activate && python main.py"

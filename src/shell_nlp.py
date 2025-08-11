@@ -13,6 +13,7 @@ from sentence_transformers import SentenceTransformer
 
 # Optional torch imports only if we need cosine fallback
 import torch
+from pathlib import Path
 from sentence_transformers import util
 
 # Optional FAISS (only used if index file is present)
@@ -23,11 +24,12 @@ except Exception:
     _FAISS_AVAILABLE = False
 
 # ---------- Paths ----------
-DATA_DIR = "src/data"
-MODELS_DIR = "src/models"
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data" 
+MODELS_DIR = BASE_DIR / "models"
 COMMANDS_PATH = os.path.join(DATA_DIR, "commands.json")
 EMB_PATH = os.path.join(DATA_DIR, "desc_embeddings.npy")
-FAISS_PATH = os.path.join(MODELS_DIR, "faiss_index.faiss")
+FAISS_PATH = os.path.join(MODELS_DIR, "faiss.index")
 
 # ---------- Load model once ----------
 # You can switch models here if you want to compare

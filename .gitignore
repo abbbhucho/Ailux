@@ -1,3 +1,19 @@
 src/shell_helper_env/
 src/__pycache__/
+src/data/commands.json
+src/data/desc_embeddings.npy
+src/src/models/faiss.index
 
+# models & caches
+src/**/models/*.index
+src/**/models/*.bin
+src/**/models/*.pt
+src/**/models/*.onnx
+
+# embeddings + data blobs
+src/data/*.npy
+src/data/*.npz
+src/data/*.pkl
+
+# heavy artifacts
+src/**/models/*.index

@@ -17,3 +17,6 @@ src/data/*.pkl
 
 # heavy artifacts
 src/**/models/*.index
+
+## ignore log files
+src/command_log.log

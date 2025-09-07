@@ -8,6 +8,7 @@ AI Shell Helper retrieval module
 import os
 import json
 import numpy as np
+from pathlib import Path
 
 from sentence_transformers import SentenceTransformer
 
@@ -15,6 +16,14 @@ from sentence_transformers import SentenceTransformer
 import torch
 from pathlib import Path
 from sentence_transformers import util
+
+# helper function
+def _cmd_text(x):
+    if isinstance(x, str):
+        return x
+    if isinstance(x, dict):
+        return (x.get("command") or "").strip()
+    return str(x)
 
 # Optional FAISS (only used if index file is present)
 try:
@@ -43,8 +52,18 @@ if not os.path.isfile(COMMANDS_PATH):
         "Run preprocess_embeddings.py first to generate it."
     )
 
-with open(COMMANDS_PATH, "r") as f:
-    _commands = json.load(f)
+with open(COMMANDS_PATH, "r", encoding="utf-8") as f:
+    _rows = json.load(f)
+
+# Keep PARALLEL ARRAYS of strings (not dicts)
+_descriptions = []
+_commands = []
+for r in _rows:
+    task = (r.get("task") or r.get("description") or "").strip()
+    cmd  = (r.get("command") or "").strip()
+    if task and cmd:
+        _descriptions.append(task)
+        _commands.append(cmd)  # <#TODONE: handles pure string error
 
 # ---------- Choose backend (FAISS > cosine fallback) ----------
 _use_faiss = _FAISS_AVAILABLE and os.path.isfile(FAISS_PATH)
@@ -53,7 +72,7 @@ _desc_embeddings_t = None  # torch tensor for cosine fallback
 
 if _use_faiss:
     # Load FAISS index
-    _index = faiss.read_index(FAISS_PATH)
+    _index = faiss.read_index(str(FAISS_PATH))
     print(f"Using FAISS index: {_MODEL_NAME} @ {FAISS_PATH}")
 else:
     # Fallback: load precomputed embeddings and use cosine similarity
@@ -84,7 +103,7 @@ def get_shell_command(user_input: str) -> str:
         # Safety for empty index
         if best_idx < 0 or best_idx >= len(_commands):
             return ""
-        return _commands[best_idx]
+        return _cmd_text(_commands[best_idx])
 
     # Cosine fallback
     query_emb = _model.encode([user_input], convert_to_tensor=True)
@@ -93,4 +112,4 @@ def get_shell_command(user_input: str) -> str:
     best_idx = int(torch.argmax(scores).item())
     if best_idx < 0 or best_idx >= len(_commands):
         return ""
-    return _commands[best_idx]
+    return _cmd_text(_commands[best_idx])

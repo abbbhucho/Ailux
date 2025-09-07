@@ -32,6 +32,13 @@ if not data_path.is_absolute():
 if not data_path.exists():
     raise FileNotFoundError(f"Data file not found: {data_path}")
 
+faiss_arg = Path(args.faiss)
+if not faiss_arg.is_absolute():
+    # If someone passed "models/faiss.index" or "faiss.index", force it into our MODELS_DIR
+    faiss_path = (MODELS_DIR / faiss_arg.name).resolve()
+else:
+    faiss_path = faiss_arg.resolve()
+
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
 

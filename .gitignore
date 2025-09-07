@@ -6,8 +6,8 @@ src/src/models/faiss.index
 
 # models & caches
 src/**/models/*.index
-src/**/models/*.bin
-src/**/models/*.pt
+src/**/models/*.npz
+src/**/models/*.pkl
 src/**/models/*.onnx
 
 # embeddings + data blobs
@@ -18,5 +18,5 @@ src/data/*.pkl
 # heavy artifacts
 src/**/models/*.index
 
-## ignore log files
-src/command_log.log
+# ignore log files
+/src/command_log.log

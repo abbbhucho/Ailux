@@ -3,6 +3,8 @@ from safe_config import SAFE_MODE, is_dangerous
 import subprocess
 from datetime import datetime
 import os
+import time
+from spinner import Spinner
 
 LOG_PATH = os.path.join(os.path.dirname(__file__), "command_log.log")
 
@@ -12,7 +14,7 @@ def log_command(nl_input, command, status):
         log_file.write(f"  → Command: {command}\n")
         log_file.write(f"  → Status: {status}\n\n")
 
-def ai_shell():
+def show_logo():
     print(
         """
          █████  ██ ██      ██    ██ ██   ██ 
@@ -24,6 +26,8 @@ def ai_shell():
 
     """
     )
+
+def ai_shell():
     print(f" SAFE_MODE is {'ON' if SAFE_MODE else 'OFF'} (set in .env)\n")
     while True:
         user_input = input(" ai-shell$ ")
@@ -53,6 +57,14 @@ def ai_shell():
             log_command(user_input, "N/A", f"ERROR: {e}")
 
 def main():
+    spinner = Spinner("Starting AILUX...")
+    spinner.start()
+    try:
+        # for now -> simulate some startup work (e.g., model loading, FAISS init, etc.)
+        time.sleep(2)  # #TODO:replace with real init later
+    finally:
+        spinner.stop()
+    show_logo()
     ai_shell()
 
 if __name__ == "__main__":

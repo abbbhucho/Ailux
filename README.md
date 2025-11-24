@@ -1,4 +1,4 @@
-# 🚀 AILUX – AI Powered Linux Shell Helper
+# AILUX – AI Powered Linux Shell Helper
 
 ![AILUX Preview](image-here.png)
 
@@ -11,17 +11,16 @@ It makes the command line more **intuitive**, **educational**, and **secure**.
 
 ---
 
-## ✨ Why AILUX?
+##  Why AILUX?
 
-- 🔎 **Understandable** – Write queries like *“show my current directory”* and get `pwd`.  
-- 🛡 **Safe Mode** – Commands run only with your approval.  
-- ⚡ **Efficient** – Backed by embeddings + FAISS index for fast semantic matching.  
-- 🔧 **Extensible** – Add new commands, phrases, or even plugins.  
-- 🎓 **Educational** – Learn Linux commands as you use them.
+-  **Understandable** – Write queries like *“show my current directory”* and get `pwd`.  
+-  **Safe Mode** – Commands run only with your approval.  
+-  **Efficient** – Backed by embeddings + FAISS index for fast semantic matching.  
+-  **Extensible** – Add new commands, phrases, or even plugins.
 
 ---
 
-## 📸 Demo
+## Demo
 
 ```bash
 ai-shell$ current directory
